@@ -252,6 +252,6 @@ body {
 }
 
 #myQuiz .intro.inactive,
-#myQuiz .intro.answered {
+#myQuiz .inactive.answered {
     left: -1350px;
 }
