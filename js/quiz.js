@@ -48,6 +48,20 @@
       return $scope.activeQuestion +=1;
     };
 
+    $scope.createShareLinks = function(percentage) {
+
+      var url = 'https://nerdyrasa.github.io/angular-quiz/';
+
+      var emailLink = '<a class="btn email" href="mailto:?subject=Try to beat my quiz score!&amp;body=Try to beat my score.">Email a friend</a>';
+
+      var twitterLink = '<a class="btn twitter" target="_blank" href="http://twitter.com/share?text=Try to beat my score &amp;hashtags=SaturnQuiz">Tweet your score</a>';
+
+      var newMarkup = emailLink + twitterLink;
+
+      return $sce.trustAsHtml(newMarkup);
+
+    };
+
   }]);
 
 })();

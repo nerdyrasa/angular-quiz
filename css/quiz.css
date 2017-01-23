@@ -256,17 +256,6 @@ body {
     left: -1350px;
 }
 
-/*  Temporary test  -----------*/
-#myQuiz {
-    height: 1000px;
-}
-#myQuiz .results {
-    top: 650px !important;
-    left: 40px !important;
-}
-
-/*  -------------------------- */
-
 @media screen and (max-width: 650px) {
     body {
         padding: 0;
